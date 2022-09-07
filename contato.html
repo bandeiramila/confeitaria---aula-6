@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Caseirinhos By Mila</title>
+    <style>
+        body{
+            background-color:  #fedfdd;
+        }
+        header{
+            background-color: #f4cacb;
+        }
+        #logo {
+            border-radius: 50%;
+            height: 300px;
+        }
+        nav{
+            background-color: #75342e;
+            padding-block: 15px;
+            margin-top: 15px;
+        }
+        span{
+            margin: 20px;
+            font-size: larger;
+            background-color: #fbb0b4;
+            padding-inline: 10px;
+            padding-block: 10px;
+            border-radius: 50%;
+        }
+        form{
+            width: 80%;
+        }
+        h3{
+            color: #e15f6e;
+            font-family:cursive;
+        }
+        #info{
+            float: left;
+            width: 50%;
+        }
+        #corpo{
+            margin-inline: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+        <img src="logo.jpg" id="logo">
+        <nav>
+            <span><a href="index.html">Página Inicial</a></span>
+            <span><a href="portifolio.html">  Portifolio  </a></span>
+            <span><a href="contato.html">  Contato  </a></span>
+        </nav>
+    </header>
+    <div id="corpo">
+        <div id="info">
+            <center><h3>Entre em Contato</h3></center>
+            <form>
+                <p>Seu nome: <input type="text" placeholder="Digite seu nome completo" required></p>
+                <p>E-mail: <input type="email" placeholder="email@email.com"></p>
+                <p>Telefone: <input type="tel" placeholder="(99) 99999-9999"></p>
+                Motivo do contato: 
+                <select>
+                    <option>Orçamento</option>
+                    <option>Reclamação</option>
+                    <option>Ideias</option>
+                    <option>Trabalhe Conosco</option>
+                </select>
+                <p>Descrição:
+                <textarea cols="38" rows="5"></textarea></p>
+                <p>Anexos (opcional) <input type="file"> <input type="file"> <input type="file"></p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </div>
+        <div id="info">
+            <center><h3>Onde estamos</h3></center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1726.008313005315!2d-51.32388994192935!3d-30.09371017480013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197f9586067db5%3A0x920b22ef064a6bc1!2sR.%20Natal%2C%20951-967%20-%20Santa%20Rita%2C%20Gua%C3%ADba%20-%20RS%2C%2092500-000!5e0!3m2!1spt-BR!2sbr!4v1662523960443!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+    </div>
+</body>
+
+</html>
